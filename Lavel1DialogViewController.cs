@@ -37,6 +37,10 @@ namespace SplitViewAndMTDialog1
 		// CONSTRUCTORS ////////////////////////////////////////////////
 		public Level1DialogViewController() : base(UITableViewStyle.Plain, null, false)
 		{
+			// This fixes the issue I was having with extra animation in detail pane
+			// when click back ("Lebel 1") button
+			Autorotate = true;
+			
 			Root = new RootElement("Level 1")
 			{
 				new Section()
