@@ -1,3 +1,3 @@
-This shows off extra animation in the detail pane of UISplitViewController when using
-with MonoTouch.Dialog. I'm sure I am just doing something wrong. Click into the
-navigation and then click back to pop navigation and see the issue.
+This originally showed off extra animation in the detail pane of UISplitViewController when using it
+with MonoTouch.Dialog DialogViewController. But adding Autorotate=true to DialogViewController
+fixed the issue, and this code has been updated with the fix.
